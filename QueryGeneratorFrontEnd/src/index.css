@@ -1,0 +1,20 @@
+body {
+  
+
+  font: 20px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-color: #2c70f0;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+.rowAllign {
+  display: inline-block;
+}
+
+.rowAllign1 {
+  display: inline-block;
+}
