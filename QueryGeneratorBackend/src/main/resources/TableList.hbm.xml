@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name = "io.dropDemo.POJO.TableList" table = "tableList">
+
+        <meta attribute = "class-description">
+            my first database connection hurry.
+        </meta>
+
+        <id name="ID" type = "int" column ="ID">
+            <generator class="native"/>
+        </id>
+
+        <!--            <key-property name="columnName" column="Column_name" type="string"/>-->
+
+
+        <property name = "NAME" column = "NAME" type = "string"/>
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name = "io.dropDemo.POJO.TableSchema" table = "tableSchema">
+
+        <meta attribute = "class-description">
+            my first database connection hurry.
+        </meta>
+
+
+         <composite-id>
+             <key-property name = "ID" column = "ID" type = "int"/>
+             <key-property name = "columnName" column = "columnName" type = "string"/>
+        </composite-id>
+        <!--            <key-property name="columnName" column="Column_name" type="string"/>-->
+
+        <property name = "dataType" column = "dataType" type = "string"/>
+
+    </class>
+</hibernate-mapping>
